@@ -1,0 +1,31 @@
+/* Skills.css */
+.skills {
+    text-align: center;
+    padding: 50px;
+    background-color: #f3f4f6;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    color: #1f2937;
+  }
+  
+  .skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .skills li:hover {
+    transform: scale(1.05);
+  }
+  

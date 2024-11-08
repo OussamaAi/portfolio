@@ -1,0 +1,25 @@
+/* About.css */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+  }
+  
+  .about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #1f2937;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
